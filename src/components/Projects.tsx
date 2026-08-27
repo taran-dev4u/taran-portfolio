@@ -112,6 +112,45 @@ const getProjectCoverSrc = (project: Project) => {
 
 const projects: Project[] = [
   {
+    title: 'Career Job Monitor — Automated SWE & AI Opportunity Engine',
+    role: 'Software Developer',
+    status: 'Live',
+    context: 'Automated Multi-Source Opportunity Engine · 30-Min Schedule',
+    subject: 'Automation & Systems',
+    overview:
+      'Production automated job monitoring pipeline tracking SWE, Data, and AI openings across leading technology portals every 30 minutes with multi-criteria experience, visa sponsorship, and skill matching.',
+    technologies: ['Node.js', 'GitHub Actions', 'JavaScript', 'REST APIs', 'CI/CD', 'Automation', 'Data Pipelines'],
+    keyFeatures: [
+      'Engineered automated Cron workflow executing every 30 minutes to discover active job requisitions across top enterprise portals.',
+      'Implemented automated multi-layer qualification filters for experience levels, new grad roles, and sponsorship availability.',
+      'Maintains deterministic historical state tracking, decision records, and Markdown summary dashboards.',
+      'Automated candidate alerting and structured JSON data feeds for live client dashboard integration.',
+    ],
+    outcome:
+      'Eliminated manual job board hunting with automated real-time discovery, qualification, and structured reporting.',
+    icon: Workflow,
+    githubUrl: 'https://github.com/taran-dev4u/career-job-monitor',
+  },
+  {
+    title: 'Django-CRM — Multi-Tenant Lead Enrichment & Engine Architecture',
+    role: 'Open Source',
+    status: 'Completed',
+    context: 'Django-CRM (1,000+ Stars) · Production Open Source Contributions',
+    overview:
+      'Open-source engineering contributions to Django-CRM implementing multi-tenant REST API architecture, duplicate lead detection algorithms, and cloud attachment pipelines.',
+    technologies: ['Python', 'Django', 'Django REST Framework', 'PostgreSQL', 'Multi-Tenancy', 'pytest', 'Docker'],
+    keyFeatures: [
+      'Engineered high-performance lead deduplication algorithms across contact accounts and business opportunities.',
+      'Optimized multi-tenant schema isolation boundaries and query execution plans for enterprise scalability.',
+      'Authored comprehensive unit and integration test coverage validating tenant data boundaries.',
+      'Documented API schemas and contribution guidelines for 1,000+ open-source deployments.',
+    ],
+    outcome:
+      'Enhanced CRM data integrity, deduplication accuracy, and multi-tenant performance for large-scale enterprise deployments.',
+    icon: ServerCog,
+    githubUrl: 'https://github.com/taran-dev4u/django-crm-lead-enrichment',
+  },
+  {
     title: 'NVIDIA NeMo Automodel — VLM Processor Artifact Serialization',
     role: 'Open Source',
     status: 'Completed',
@@ -674,7 +713,7 @@ const projects: Project[] = [
     outcome:
       'Improved frontend implementation practice with a concrete browser-based utility project.',
     icon: ShieldCheck,
-    githubUrl: 'https://github.com/taran-dev4u/WebDev-Projects',
+    githubUrl: 'https://github.com/taran-dev4u/WebDev-Works',
   },
   {
     title: 'Competitive Programming Lab Archive',
@@ -910,10 +949,12 @@ const getProjectTags = (project: Project) => {
 const priorityProjectTitles = [
   'NVIDIA NeMo Automodel — VLM Processor Artifact Serialization',
   'AquaScope — Extreme Value Theory & Hydrology Intelligence Platform',
+  'Career Job Monitor — Automated SWE & AI Opportunity Engine',
+  'Django-CRM — Multi-Tenant Lead Enrichment & Engine Architecture',
   'FlexMeasures — Multi-Tenant Account Role Filtering',
   'Atmospheric CO2 and LULC Modeling Pipeline',
-  'Real-Time Streaming Data Pipeline',
-  'Enterprise RAG Knowledge System',
+  'Enhanced Image Inpainting With Transformer-GAN',
+  'Aviation Accident Analysis: Trends, Causes, and Safety Measures',
   'timely-beliefs — BeliefSource Strict Total Ordering',
   'Pintos User Programs and System Calls',
   'Stock Market Database for Real-Time Analysis',

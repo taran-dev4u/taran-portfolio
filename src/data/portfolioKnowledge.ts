@@ -24,6 +24,37 @@ export type PortfolioKnowledgeItem = {
 
 export const portfolioKnowledge: PortfolioKnowledgeItem[] = [
   {
+    id: 'project-career-job-monitor',
+    title: 'Career Job Monitor — Automated SWE & AI Opportunity Engine',
+    section: 'projects',
+    roleTags: ['Software Engineer', 'Data Engineer', 'Backend Developer'],
+    skillTags: ['Node.js', 'GitHub Actions', 'JavaScript', 'REST APIs', 'Automation', 'CI/CD', 'data pipelines'],
+    summary:
+      'An automated production job monitoring system running every 30 minutes to track SWE, Data, and AI openings across major enterprise portals with experience and sponsorship filtering.',
+    details: [
+      'Executes scheduled 30-minute GitHub Actions workflows to scrape and parse corporate career portals.',
+      'Applies multi-criteria qualification for new grad, mid, and senior levels along with visa sponsorship flags.',
+      'Maintains deterministic historical state, decision history, and auto-generated Markdown dashboards.',
+    ],
+    href: '#projects',
+  },
+  {
+    id: 'project-django-crm',
+    title: 'Django-CRM Multi-Tenant Lead Enrichment & Engine',
+    section: 'projects',
+    roleTags: ['Open Source', 'Software Engineer', 'Backend Developer', 'Full Stack Developer'],
+    skillTags: ['Python', 'Django', 'Django REST Framework', 'PostgreSQL', 'Multi-Tenancy', 'pytest', 'Docker'],
+    summary:
+      'Core open-source contributions to Django-CRM (1,000+ Stars) adding multi-tenant REST APIs, duplicate lead detection, and cloud attachment pipelines.',
+    details: [
+      'Implemented duplicate lead detection algorithms across contacts and opportunities.',
+      'Strengthened multi-tenant database isolation boundaries and query performance.',
+      'Authored unit and integration test suites validating tenant isolation and API contracts.',
+    ],
+    href: '#projects',
+  },
+
+  {
     id: 'profile-overview',
     title: 'Taran Mamidala profile overview',
     section: 'about',

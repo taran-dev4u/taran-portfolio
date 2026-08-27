@@ -53,6 +53,22 @@ export const portfolioKnowledge: PortfolioKnowledgeItem[] = [
     href: '#hero',
   },
   {
+    id: 'open-source-contributions',
+    title: 'Open Source Engineering & Upstream Contributions',
+    section: 'projects',
+    roleTags: ['Open Source', 'Software Engineer', 'AI Engineer', 'Data Engineer', 'Backend Developer'],
+    skillTags: ['Open Source', 'PyTorch', 'Hugging Face', 'Transformers', 'LoRA', 'Flask', 'SQLAlchemy', 'Pandas', 'NumPy', 'SciPy', 'Streamlit', 'GitHub Actions', 'pytest'],
+    summary:
+      'Taran is an active open-source contributor with merged pull requests across premier enterprise and scientific open-source ecosystems including NVIDIA NeMo, FlexMeasures, timely-beliefs, and AquaScope.',
+    details: [
+      'NVIDIA-NeMo/Automodel (867+ Stars): Merged PR #3379 adding mock test coverage and artifact serialization logic for VLM processors with tokenizer fallbacks during LoRA adapter weight merges.',
+      'FlexMeasures/flexmeasures (206+ Stars): Merged PR #2353 implementing authorization-bounded multi-tenant account role filtering in the REST API and access-scoped management UI.',
+      'SeitaBV/timely-beliefs: Merged PR #245 enforcing strict total ordering on BeliefSource to eliminate silent NaN values during Pandas MultiIndex alignment.',
+      'Rekin226/aquascope: 9 merged PRs (#154, #150, #148, #147, #145, #140, #137, #132, #131) and 1 active PR (#269) engineering Extreme Value Theory flood frequency bounds with L-moments, vectorized Mann-Kendall trend tests, Sen’s slope, CAMELS-BR 897-catchment collector, and CI changelog automation.',
+    ],
+    href: '#projects',
+  },
+  {
     id: 'skills-technical-expertise',
     title: 'Technical expertise',
     section: 'skills',
